@@ -37,6 +37,10 @@ const ToolbarMenu = () => {
         <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
           <MenuItem onClick={() => handleNavigate('/')}>Inicio</MenuItem>
           <MenuItem onClick={() => handleNavigate('/about')}>Acerca de</MenuItem>
+          <MenuItem onClick={() => handleNavigate('/menu1')}>Menu 1</MenuItem>
+          <MenuItem onClick={() => handleNavigate('/menu2')}>Menu 2</MenuItem>
+          <MenuItem onClick={() => handleNavigate('/menu3')}>Menu 3</MenuItem>
+          <MenuItem onClick={() => handleNavigate('/menu4')}>Menu 4</MenuItem>
         </Menu>
       </Toolbar>
     </AppBar>
